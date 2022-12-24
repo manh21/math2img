@@ -2,13 +2,16 @@ name = "math2img"
 compatibility_date = "2022-12-23"
 node_compat = true
 workers_dev = true
+usage_model = "bundled"
 
 [env.staging]
+usage_model = "bundled"
 name = "math2img-staging"
 workers_dev = true
 node_compat = true
 
 [env.production]
+usage_model = "bundled"
 name = "math2img"
 workers_dev = false
 routes = [

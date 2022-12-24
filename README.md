@@ -2,6 +2,8 @@
 
 Generate mathematics formula to images formula in 270+ edge locations, powered by Cloudflare Workers
 
+![Visitor](https://visitor-badge.laobi.icu/badge?page_id=manh21.math2img)
+
 ## Info
 
 Math2Img generates custom mathematics formula to images on the fly, support forumal written for MathML, TeX and ASCIImath. All of these images are generated on Cloudflare's Edge, at 270+ locations, ensuring the best possible performance for all of your users. All images are cached for lengthy periods of time.

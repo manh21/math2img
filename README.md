@@ -1,4 +1,4 @@
-# Math2Img
+# Math 2 Image
 
 Generate mathematics formula to images formula in 270+ edge locations, powered by Cloudflare Workers
 

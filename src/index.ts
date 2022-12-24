@@ -58,7 +58,7 @@ app.get('/api', async function (c, next) {
                 'x-content-type-options': 'nosniff',
                 'x-dns-prefetch-control': 'off',
                 'x-download-options': 'noopen',
-                'content-disposition': 'inline; filename="math.svg"',
+                'x-frame-options': 'SAMEORIGIN',
             },
         })
 
@@ -78,7 +78,6 @@ app.get('/api', async function (c, next) {
                 'x-content-type-options': 'nosniff',
                 'x-dns-prefetch-control': 'off',
                 'x-download-options': 'noopen',
-                'content-disposition': 'inline; filename="math.svg"',
             },
         })
     }

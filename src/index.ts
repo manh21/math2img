@@ -62,7 +62,7 @@ app.get('/api', async function (c, next) {
             },
         })
 
-        c.event.waitUntil(
+        c.executionCtx.waitUntil(
             cache.put(c.req.url, response.clone())
         )
 

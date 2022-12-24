@@ -1,3 +1,17 @@
 name = "math2img"
 compatibility_date = "2022-12-23"
+node_compat = true
+workers_dev = true
 
+[env.staging]
+name = "math2img-staging"
+workers_dev = true
+node_compat = true
+
+[env.production]
+name = "math2img"
+workers_dev = false
+routes = [
+	{pattern = "math2img.manh21.com/api/*", zone_id = "0332833404812aaa659b256a8c9fe0bb"},
+]
+node_compat = true
